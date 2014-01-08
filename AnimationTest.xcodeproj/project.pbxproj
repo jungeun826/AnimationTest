@@ -21,6 +21,7 @@
 		00F19543187CD32A004B4A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F19525187CD32A004B4A92 /* UIKit.framework */; };
 		00F1954B187CD32A004B4A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F19549187CD32A004B4A92 /* InfoPlist.strings */; };
 		00F1954D187CD32A004B4A92 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F1954C187CD32A004B4A92 /* AnimationTestTests.m */; };
+		00F19558187CD475004B4A92 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00F19557187CD475004B4A92 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		00F19548187CD32A004B4A92 /* AnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTestTests-Info.plist"; sourceTree = "<group>"; };
 		00F1954A187CD32A004B4A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F1954C187CD32A004B4A92 /* AnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestTests.m; sourceTree = "<group>"; };
+		00F19557187CD475004B4A92 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		00F19527187CD32A004B4A92 /* AnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				00F19556187CD464004B4A92 /* Res */,
 				00F19530187CD32A004B4A92 /* AppDelegate.h */,
 				00F19531187CD32A004B4A92 /* AppDelegate.m */,
 				00F19533187CD32A004B4A92 /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				00F19549187CD32A004B4A92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F19556187CD464004B4A92 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00F19557187CD475004B4A92 /* images.jpeg */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F1953A187CD32A004B4A92 /* Images.xcassets in Resources */,
+				00F19558187CD475004B4A92 /* images.jpeg in Resources */,
 				00F1952C187CD32A004B4A92 /* InfoPlist.strings in Resources */,
 				00F19535187CD32A004B4A92 /* Main.storyboard in Resources */,
 			);
